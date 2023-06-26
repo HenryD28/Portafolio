@@ -78,6 +78,10 @@ svg {
     gap: 2rem;
 }
 
+.main-title {
+    text-decoration: none;
+}
+
 #main-title {
     margin: 0;
     font-size: 3rem;
@@ -183,6 +187,14 @@ svg {
     #main-container {
        
         width: 50%;
+    }
+
+    .proyectos-container {
+        display: flex;
+        flex-direction: row;
+        gap: 5rem;
+    
+        
     }
 }
 
